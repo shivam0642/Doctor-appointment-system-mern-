@@ -1,0 +1,38 @@
+.facility-heading{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    color:rgb(6,77,77);
+}
+.facility-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap:wrap ;
+    background-color: #9db4c0;
+}
+
+.facility-container .card{
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+}
+.facility-container i{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facility-container .card:hover{
+    cursor: pointer;
+    background-color: rgb(7,158,158);
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
