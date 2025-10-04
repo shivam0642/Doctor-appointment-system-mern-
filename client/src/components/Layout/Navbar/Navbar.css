@@ -1,6 +1,8 @@
 .navbar-container{
     overflow: hidden;
     border-bottom: 1px solid rgba(128,128,128,0.17);
+    background-color: #fff;
+    z-index: 1;
 }
 
 .topbar-container {

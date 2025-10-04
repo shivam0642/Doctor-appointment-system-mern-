@@ -7,7 +7,7 @@ import Logo from '../../../assets/images/logo.jpg'
 const Navbar = () => {
   return (
     <>
-        <div className='navbar-container'>
+        <div className='navbar-container sticky-top'>
            <div className='row'>
               <div className='col-md-3'>
                 <NavLink to='/' className='nav-logo'>

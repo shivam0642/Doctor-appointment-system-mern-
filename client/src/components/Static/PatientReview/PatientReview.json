@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "Name":"John Doe",
+        "address":"Local Resident",
+        "CommentTitle":"Great Service",
+        "CommentDescription":"I had a wonderful experience with the doctor. Highly recommend!",
+        "rating":5,
+        "pic":"https://cdn.pixabay.com/photo/2023/02/18/11/00/icon-7797704_640.png"
+    },
+    {
+        "id":2,
+        "Name":"Jane Smith",
+        "address":"Local Resident",
+        "CommentTitle":"Excellent Care",
+        "CommentDescription":"The staff was very attentive and the doctor was very knowledgeable.",
+        "rating":4,
+        "pic":"https://cdn.pixabay.com/photo/2023/02/18/11/00/icon-7797704_640.png"
+    },
+    {
+        "id":3 ,
+        "Name":"Johnson Lee",
+        "address":"Delhi Resident",
+        "CommentTitle":"Lovely Experience",
+        "CommentDescription":"The clinic was clean and the doctor made me feel comfortable.",
+        "rating":5,
+        "pic":"https://cdn.pixabay.com/photo/2023/02/18/11/00/icon-7797704_640.png"
+    }
+]
