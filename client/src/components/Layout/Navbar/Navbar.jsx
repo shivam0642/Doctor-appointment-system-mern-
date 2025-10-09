@@ -9,12 +9,12 @@ const Navbar = () => {
     <>
         <div className='navbar-container sticky-top'>
            <div className='row'>
-              <div className='col-md-3'>
+              <div className='col-md-2'>
                 <NavLink to='/' className='nav-logo'>
                     <img src = {Logo} alt='logo' className='brand-logo'/>
                 </NavLink>
               </div>
-              <div className='col-md-9'>
+              <div className='col-md-10'>
                {/* This 9 cloumn is further divided into 2 rows
                  1st row - Topbar
                  2nd row - NavMenu */}

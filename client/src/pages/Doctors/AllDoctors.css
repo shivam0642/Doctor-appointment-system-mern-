@@ -30,3 +30,22 @@
 .doc-container .card:hover{
     background-color:rgb(216,255,255) ;
 }
+
+.docinfo-container h6{
+    font-weight: bold;
+}
+
+.docinfo-container .card-footer{
+   width: 100%; 
+   text-align: center;
+   background-color: transparent;
+}
+
+.calender{
+    cursor: pointer;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid teal;
+    background-color: rgb(249,250,172);
+}
