@@ -1,0 +1,38 @@
+.message-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.location-map{
+    box-shadow: 5px 5px rgb(207, 207, 207);
+
+}
+
+.mform{
+    display: flex;
+    flex-direction: column;
+}
+
+.mform h1{
+    color:teal;
+}
+
+.mform input,textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border:1px solid lightgray
+}
+
+.mform button{
+    background-color: black;
+    color: white;
+}
+
+.mform button:hover{
+    background-color: teal;
+    cursor: pointer;
+    color:white;
+}

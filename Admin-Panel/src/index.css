@@ -1,0 +1,16 @@
+.nav{
+    background-color: #383636;
+    color:#fff ;
+    margin-bottom: 30px;
+}
+
+.nav .nav-link{
+    color:#fff;
+    border-bottom: 1px solid black;
+}
+
+.nav .nav-link:hover{
+    color: #fff;
+    background-color: #1e1c1c;
+}
+

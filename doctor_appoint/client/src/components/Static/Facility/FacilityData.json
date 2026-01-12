@@ -1,0 +1,38 @@
+[
+    {
+       "title": "General Care",
+       "icon":"fa-solid fa-hospital"
+    },
+    {
+        "title":"Pathology Lab",
+        "icon":"fa-solid fa-vials"
+    },
+    {
+        "title":"Dental Care",
+        "icon":"fa-solid fa-tooth"
+    },
+    {
+        "title":"24/7 Emergency",
+        "icon":"fa-solid fa-ambulance"
+    },
+    {
+        "title":"heart Issues",
+        "icon":"fa-solid fa-heart-pulse"
+    },
+    {
+        "title":"Neurology",
+        "icon":"fa-solid fa-brain"
+    },
+    {
+        "title":"Rhematology",
+        "icon":"fa-solid fa-hand"
+    },
+    {
+        "title":"Eye Care",
+        "icon":"fa-solid fa-eye"
+    },
+    {
+        "title":"Pediatric",
+        "icon":"fa-solid fa-baby"
+    }
+]

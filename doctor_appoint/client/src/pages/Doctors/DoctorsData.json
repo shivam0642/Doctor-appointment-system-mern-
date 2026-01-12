@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "name":"John Doe",
+        "pic": "https://static.thenounproject.com/png/1743561-200.png",
+        "degree":"M.D in Dental",
+        "about":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla tellus, consectetur sit amet turpis ut, cursus accumsan purus. Vivamus vel tincidunt magna. Suspendisse ante nunc, tincidunt at porta in, commodo nec nisi. Aliquam bibendum massa leo, nec consectetur arcu ornare venenatis. In ut tortor sed lacus euismod scelerisque. Vestibulum.",
+        "experience":1,
+        "available":true,
+        "fee":100,
+        "icon":"fa-solid fa-teeth",
+        "speciality":"Dentist"
+    }    
+]
