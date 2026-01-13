@@ -1,5 +1,5 @@
 import React from 'react'
-import Slider from '../components/slider/slider'
+import Slider from '../components/slider/Slider.jsx'
 import Facility from '../components/Static/Facility/Facility'
 import ShortIntro from '../components/Static/Facility/ShortIntro/ShortIntro'
 import WhyChoose from '../components/Static/Facility/whyChoose/WhyChoose'
