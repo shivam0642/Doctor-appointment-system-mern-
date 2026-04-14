@@ -1,6 +1,16 @@
 import axios from "axios";
 
-const API = axios.create({baseURL:import.meta.env.VITE_BASEURL});
+const baseURL = import.meta.env.VITE_BASEURL;
+
+if (!baseURL) {
+  console.error(" VITE_BASEURL is not set!");
+} else {
+  console.log("✅ Client API Base URL:", `${baseURL}/api/v1`);
+}
+
+const API = axios.create({
+  baseURL: `${baseURL}/api/v1`
+});
 
 API.interceptors.request.use( async (config)=>{
     try {
