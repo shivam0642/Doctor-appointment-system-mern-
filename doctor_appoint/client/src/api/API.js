@@ -1,7 +1,10 @@
 import axios from "axios";
 
 const envBaseUrl = import.meta.env.VITE_BASEURL?.trim();
-const baseURL = envBaseUrl || null;
+const normalizedBaseUrl = envBaseUrl
+  ? envBaseUrl.replace(/\/+$/, "").replace(/\/api\/v1$/, "")
+  : null;
+const baseURL = normalizedBaseUrl || null;
 
 if (!baseURL) {
   console.error("VITE_BASEURL is not set. Frontend API calls will fail until it is configured in Vercel.");

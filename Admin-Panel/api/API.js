@@ -1,15 +1,19 @@
 import axios from "axios";
 
-const baseURL = import.meta.env.VITE_BASEURL;
+const envBaseUrl = import.meta.env.VITE_BASEURL?.trim();
+const normalizedBaseUrl = envBaseUrl
+  ? envBaseUrl.replace(/\/+$/, "").replace(/\/api\/v1$/, "")
+  : null;
+const baseURL = normalizedBaseUrl || null;
 
 if (!baseURL) {
-  console.error("❌ VITE_BASEURL is not set!");
+  console.error("VITE_BASEURL is not set. Admin API calls will fail until it is configured in Vercel.");
 } else {
-  console.log("✅ Admin API Base URL:", `${baseURL}/api/v1`);
+  console.log("Admin API Base URL:", `${baseURL}/api/v1`);
 }
 
 const API = axios.create({
-  baseURL: `${baseURL}/api/v1`
+  baseURL: baseURL ? `${baseURL}/api/v1` : undefined
 });
 
 API.interceptors.request.use( async (config)=>{
